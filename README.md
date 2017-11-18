@@ -12,13 +12,11 @@
 
 And alter jsreport configuration 
 ```js
-{
-	"connectionString": { 
-	  "name": "fs2",
-	  "persistence": {
-	    "accessKeyId": "...",
-	    "secretAccessKey": "..."
-	  }
-	},	
-}
+"connectionString": { 
+  "name": "fs2",
+  "persistence": {
+    "accessKeyId": "...",
+    "secretAccessKey": "..."
+  }
+},	
 ```
