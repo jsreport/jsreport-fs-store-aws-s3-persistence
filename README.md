@@ -15,6 +15,7 @@ And alter jsreport configuration
 "connectionString": { 
   "name": "fs2",
   "persistence": {
+    "name": "aws-s3",
     "accessKeyId": "...",
     "secretAccessKey": "..."
   }
