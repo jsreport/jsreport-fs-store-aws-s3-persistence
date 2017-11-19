@@ -19,10 +19,9 @@ And alter jsreport configuration
     "accessKeyId": "...",
     "secretAccessKey": "..."
     // the rest is otional
-    "region": "eu-west-1",
     "lock": {
       "queueName": "jsreport-lock.fifo",
-      "region": "eu-west-1",
+      "region": "us-east-1",
       "attributes": {}
     }
   }
