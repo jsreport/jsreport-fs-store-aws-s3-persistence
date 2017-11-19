@@ -18,6 +18,13 @@ And alter jsreport configuration
     "name": "aws-s3",
     "accessKeyId": "...",
     "secretAccessKey": "..."
+    // the rest is otional
+    "region": "eu-west-1",
+    "lock": {
+      "queueName": "jsreport-lock.fifo",
+      "region": "eu-west-1",
+      "attributes": {}
+    }
   }
 },	
 ```
