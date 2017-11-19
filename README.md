@@ -11,7 +11,7 @@
 > npm install jsreport-fs-store-aws-s3-persistence
 
 Create an IAM user with permissions to S3 and SQS and copy the access key and secret access key.
-Create a bucket and copy its name. Then alter the jsreport configuration"
+Create a bucket and copy its name. Then alter the jsreport configuration:
 ```js
 "connectionString": { 
   "name": "fs2",
