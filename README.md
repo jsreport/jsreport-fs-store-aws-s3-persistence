@@ -24,10 +24,11 @@ Create a bucket and copy its name. Then alter the jsreport configuration:
     "lock": {
       "queueName": "jsreport-lock.fifo",
       "region": "us-east-1",
+      "enabled": true,
       "attributes": {}
     }
   }
 },	
 ```
 
-This persistence implementation also guarantees consistency for parallel access from multiple instances. This is assured using locking mechanism enabling only single write at once. The locking is implemented trough AWS SQS. The queue is automatically created during the instance startup with attributes specified in the configuration `lock`. You can disable it by setting `null` to it.
+This persistence implementation also guarantees consistency for parallel access from multiple instances. This is assured using locking mechanism enabling only single write at once. The locking is implemented trough AWS SQS. The queue is automatically created during the instance startup with attributes specified in the configuration `lock`. You can disable it by setting `false` to `lock.enabled`.
