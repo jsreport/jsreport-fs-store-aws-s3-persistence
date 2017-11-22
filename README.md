@@ -7,7 +7,7 @@
 
 ## Installation
 
-> npm install jsreport-fs-store:next    
+> npm install jsreport-fs-store@next    
 > npm install jsreport-fs-store-aws-s3-persistence
 
 Create an IAM user with permissions to S3 and SQS and copy the access key and secret access key.
