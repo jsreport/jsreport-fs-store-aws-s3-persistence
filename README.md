@@ -32,6 +32,10 @@ Create a bucket and copy its name. Then alter the jsreport configuration:
       "region": "us-east-1",
       "enabled": true,
       "attributes": {}
+    },
+    "s3Options": {
+       // additional s3 constructor options
+       "maxRetries": 10
     }
   }
 }
