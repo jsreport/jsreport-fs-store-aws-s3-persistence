@@ -22,6 +22,7 @@ module.exports = {
           accessKeyId: { type: 'string' },
           secretAccessKey: { type: 'string' },
           bucket: { type: 'string' },
+          s3Options: { type: 'object' },
           lock: {
             type: 'object',
             properties: {
