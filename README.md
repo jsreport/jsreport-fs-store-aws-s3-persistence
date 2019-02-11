@@ -24,8 +24,8 @@ Create a bucket and copy its name. Then alter the jsreport configuration:
   },
   "fs-store-aws-s3-persistence": {
     "accessKeyId": "...",
-    "secretAccessKey": "..."
-    "bucket": "..."
+    "secretAccessKey": "...",
+    "bucket": "...",
     // the rest is otional
     "lock": {
       "queueName": "jsreport-lock.fifo",
