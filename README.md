@@ -20,7 +20,10 @@ Create a bucket and copy its name. Then alter the jsreport configuration:
   "fs-store": {
     "persistence": {
       "provider": "aws-s3"
-    }
+    },
+    // it is typically good idea to increase the compacting flat files interval from 5000
+    // otherwise store does too many locks which can be slow when s3 not in the same datacenter
+    "compactionInterval": 20000
   },
   "fs-store-aws-s3-persistence": {
     "accessKeyId": "...",
