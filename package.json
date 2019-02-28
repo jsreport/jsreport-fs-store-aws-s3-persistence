@@ -29,7 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "2.223.1",
-    "bluebird": "3.5.1"
+    "bluebird": "3.5.3"
   },
   "author": "Jan Blaha",
   "devDependencies": {
